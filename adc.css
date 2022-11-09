@@ -48,7 +48,11 @@ body{
     display: inline-block;
 
 }
-
+.capacity_building{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 .who{
     width: 60%;
    text-align: center;
@@ -74,6 +78,13 @@ h1{
 .our_values{
     background-color: rgb(245, 246, 247);
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.columny{
+    
+    display: flex;
     flex-direction: row;
     padding: 40px;
 }
@@ -86,4 +97,18 @@ h1{
 }
 .bi{
     margin-bottom: 30px;
+}
+.carousel-item{
+    background-color: white;
+    height: 200px;
+    padding: 30px;
+    margin-left: 20px;
+   
+
+}
+.right1{
+    border: none;
+}
+ul{
+    list-style: none;
 }
